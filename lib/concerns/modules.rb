@@ -8,7 +8,6 @@ module Total
   save
   end
 
-  @@all = []
 
   def self.save
   @@all << self
