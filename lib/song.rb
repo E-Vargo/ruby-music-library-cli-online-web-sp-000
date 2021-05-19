@@ -13,6 +13,10 @@ def save
 @@all << self
 end
 
+def create
+
+end
+
 def self.all
   @@all
 end
