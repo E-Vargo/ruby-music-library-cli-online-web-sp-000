@@ -14,7 +14,7 @@ def save
 end
 
 def create
-
+Song.new(name)
 end
 
 def self.all
