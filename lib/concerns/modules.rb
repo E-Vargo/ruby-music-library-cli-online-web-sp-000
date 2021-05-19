@@ -1,5 +1,8 @@
 module Total
 
+
+    @@all = []
+
   def initialize(name)
   @name = name
   save
