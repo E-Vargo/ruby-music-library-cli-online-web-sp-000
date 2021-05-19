@@ -10,6 +10,11 @@ module Total
   end
 
 def module total_class
+  
+  def save
+  @@all << self
+  end
+  
   def self.all
     @@all
   end
