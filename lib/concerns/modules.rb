@@ -7,6 +7,8 @@ module Total
 
 def module total_class
 
+  @@all = []
+
   def save
   @@all << self
   end
