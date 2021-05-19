@@ -5,10 +5,6 @@ module Total
   save
   end
 
-  def save
-  @@all << self
-  end
-
 def module total_class
 
   def save
