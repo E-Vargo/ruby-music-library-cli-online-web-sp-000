@@ -1,6 +1,5 @@
 module Total
 
-
   @@all = []
 
   def initialize(name)
