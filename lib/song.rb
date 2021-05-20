@@ -13,8 +13,7 @@ def save
 @@all << self
 end
 
-def create(name)
-Song.new(name)
+def create
 end
 
 def self.all
