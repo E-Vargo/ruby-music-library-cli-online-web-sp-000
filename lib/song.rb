@@ -6,7 +6,6 @@ attr_accessor :name
 
 def initialize(name)
 @name = name
-save
 end
 
 def save
@@ -14,6 +13,7 @@ def save
 end
 
 def create
+  Song.new.save
 end
 
 def self.all
